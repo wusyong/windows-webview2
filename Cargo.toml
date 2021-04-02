@@ -1,0 +1,22 @@
+[package]
+name = "windows-webview2"
+version = "0.1.0"
+authors = ["Bill Avery <billav@microsoft.com>", "Ngo Iok Ui <wusyong9104@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0/MIT"
+description = "Windows WebView2 library interface in Rust"
+categories = [ "gui" ]
+include = [
+    ".windows",
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[dependencies]
+windows = "0.7.0"
+
+[build-dependencies]
+serde = { version = "1.0", features = [ "derive" ] }
+serde_json = "1.0"
+thiserror = "1.0"
+windows = "0.7.0"
