@@ -13,10 +13,10 @@ include = [
 ]
 
 [dependencies]
-windows = "0.7.0"
+windows = "0.9.1"
 
 [build-dependencies]
 serde = { version = "1.0", features = [ "derive" ] }
 serde_json = "1.0"
 thiserror = "1.0"
-windows = "0.7.0"
+windows = "0.9.1"
